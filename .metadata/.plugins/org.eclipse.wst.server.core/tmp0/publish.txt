@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Nov 02 19:26:39 CET 2017
+org.eclipse.jst.jee.server\:/binary\:H\:\\OnlineLibrary\\OnlineLibrary\\WebContent\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE-sources.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE-sources.jar
+org.eclipse.jst.jee.server\:/binary\:H\:\\OnlineLibrary\\OnlineLibrary\\WebContent\\WEB-INF\\lib\\spring-web-4.3.7.RELEASE.jar=WEB-INF/lib/spring-web-4.3.7.RELEASE.jar

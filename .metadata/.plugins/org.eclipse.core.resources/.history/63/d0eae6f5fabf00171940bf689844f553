@@ -1,0 +1,103 @@
+/*wyzerowanie domyœlnych wartoœci */
+body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, img, ins, kbd, q, samp, small, strong, dl, dt, dd, ol,
+ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+
+body{
+	line-height: 1;
+	font: 62.5%/150% Verdana, Arial, sans-serif;
+	background-color: #ffd11a;
+}
+
+.container{
+	margin: 20px auto;
+	width:1200px;
+	height: 568px;
+	position: relative;
+}
+
+h1.title{
+	font: 43px Verdana, Arial, sans-serif;
+	padding: 1px;
+	margin-left: 180px;
+	position: absolute;
+}
+
+.content{
+	margin-top: 70px;
+	width:1200px;
+	height: 450px;
+	position: absolute;
+}
+
+nav{
+	height: 510px;
+	width: 200px;
+	padding-left: 10px;
+	float: left;
+	position: absolute;
+	background-color:yellow;
+}
+
+.chooseLibrary{
+	margin-left: 20px;
+}
+
+.InviteFrined{
+	margin-left: 10px;	
+}
+
+.AddBook{
+	margin-left: 20px;
+}
+
+
+.ListBooks{
+	height: 450px;
+	width: 700px;
+	margin-top:20px;
+	margin-left: 300px;
+	position: absolute;
+	background-color:#ffdb4d;
+}
+
+.title{
+	font: 32px Verdana, Arial, sans-serif;
+	padding: 1px;
+	margin-left: 200px;
+}
+
+.smallTitle{
+	font-size: 13px;
+	font-weight: bold;
+	margin-top: 30px;
+	margin-bottom: 3px;
+}
+
+th{
+	font-size: 13px;
+}
+
+table{
+	margin-top:30px;
+	margin-left: 150px;
+}
+
+td{
+	font-size: 12px;
+	padding: 2px;
+}
+.footer{
+    height: 20px;
+    background-color: #fff;
+    font: bold 1em/2.4em Tahoma, Arial, sans-serif; text-transform:  uppercase;
+    text-align: center;
+}

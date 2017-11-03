@@ -1,0 +1,43 @@
+<%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+	<title>Login Page</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+</head>
+
+<body>
+	<div class="container">
+		<div class="content">
+
+			<h1 class="MainTitle">WELCOME IN ONLINE LIBRARY</h1>
+			<form:form action="login" method="POST" modelAttribute="user">
+				
+				<div>
+					Login: <form:input path="login" cssClass="containerElement"/>
+						   <form:errors path="login" cssClass="error" />
+					<br />
+					Password: <form:password path="password" cssClass="containerElement" />
+							  <form:errors path="password" cssClass="error" />
+				</div>
+				
+
+				<form:input type="hidden" path="email" value="email@email.pl" />
+				<br />
+				<input type="submit" value="Submit" class="submit">
+
+			</form:form>
+
+			If you are not a user in our service, please - <a href="addUser">Log in!</a>
+
+		</div>
+
+	</div>
+
+</body>
+
+</html>

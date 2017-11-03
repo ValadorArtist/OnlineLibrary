@@ -1,0 +1,71 @@
+/*wyzerowanie domyœlnych wartoœci */
+body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym,
+address, big, cite, code, img, ins, kbd, q, samp, small, strong, dl, dt, dd, ol,
+ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0;
+font-size: 100%;
+vertical-align: baseline;
+background: transparent;
+}
+
+body{
+	line-height: 1;
+	font: 62.5%/150% Verdana, Arial, sans-serif;
+	background-color: #ffd11a;
+}
+
+.content{
+
+	margin: 60px auto;
+	width: 700px;
+	height: 200px;
+	position: relative;
+}
+
+h1.MainTitle{
+	position: absolute;
+	font: 43px Verdana, Arial, sans-serif;
+	padding: 1px;
+}
+
+.containerLogPass{
+	font-size:12px;
+	width: 350px;
+	background-color: blue;
+	height: 400px;
+	margin: 100px 200px;
+	position: absolute;
+	padding: 2px;
+}
+
+.loginElement{
+	margin-left: 27px;
+	margin-bottom: 4px;
+}
+
+.submitElement{
+	margin-top: 2px;
+	margin-left: 225px;
+}
+
+.text1{
+	font-size: 14px;
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 200px;
+}
+
+.error {
+		color: red;
+	}
+	
+.footer{
+    border-top: 1px solid #b2b2b2;
+    height: 20px;
+    background-color: #fff;
+    font: bold 1em/2.4em Tahoma, Arial, sans-serif; text-transform:  uppercase;
+    text-align: center;
+}
